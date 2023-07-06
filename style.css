@@ -1,28 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-.container {
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
 .html {
     font-size: 16px;
+}
+
+.container {
+    margin-top: 4em;
 }
 
 .btn {
     border-radius: 5px;
     width: 327px;
     height: 42px;
-    position: absolute;
-    left: 476px;
-    top: 456px;
-}
-
-div,
-div input {
-    border-width: medium;
-    border-style: solid;
-    border-color: #00f;
 }
 
 .entrar {
@@ -38,7 +27,6 @@ div input {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 2em;
     color: #7e7e7e;
     font: 700 32px "Poppins", sans-serif;
 }
@@ -70,31 +58,32 @@ label {
     color: #757575;
     text-align: left;
     font: 200 12px "Poppins", sans-serif;
-    position: absolute;
-    left: 478px;
-    top: 246px;
-    width: 49px;
-    height: 16px;
 }
 
 .input-container-pass {
     color: #757575;
     text-align: left;
     font: 200 12px "Poppins", sans-serif;
-    position: absolute;
-    left: 478px;
-    top: 328px;
-    width: 78px;
-    height: 15px;
 }
 
 
 .link-opacity-50-hover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 2em;
     color: #7e7e7e;
     font: 400 10px "Poppins", sans-serif;
-    position: absolute;
-    left: 595px;
-    top: 409px;
+}
+
+.buttons {
+    position: relative;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 #google-btn {
@@ -104,57 +93,11 @@ label {
     top: 510px;
 }
 
-@media (max-width: 600px) {
-    .btn {
-        max-width: 100%;
-        left: 31px;
-        right: auto;
-        top: 450px;
-    }
-
-    #google-btn {
-        max-width: 100%;
-        left: 31px;
-        right: auto;
-        top: 500px;
-    }
-
-    .entrar {
-        right: auto;
-        left: 165px;
-        top: 150px;
-    }
-
-    .fintech {
-        left: 143px;
-        right: auto;
-        top: 80px;
-        font-size: 24px;
-    }
-
-    .input-container-email {
-        position: absolute;
-        max-width: 327px;
-        left: 30px;
-        top: 220px;
-        width: 49px;
-        height: 16px;
-    }
-
-    .input-container-pass {
-        position: absolute;
-        max-width: 327px;
-        left: 30px;
-        top: 290px;
-        width: 49px;
-        height: 16px;
-    }
-
-    .link-opacity-50-hover {
-        max-width: 327px;
-        left: 150px;
-        right: auto;
-        top: 390px;
-        width: 100%;
-    }
+.inputs {
+    position: ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
