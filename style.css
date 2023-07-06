@@ -94,10 +94,26 @@ label {
 }
 
 .inputs {
-    position: ;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.register {
+    position: relative;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #7e7e7e;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+
+
+}
+
+.register a {
+    color: #242323;
+    margin-left: 0.3em;
 }
